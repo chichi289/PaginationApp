@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".views.LauncherActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_jetpack" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/txt_list_api_end_less_scroll" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPagingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_paging_list_api_linear"
+        app:layout_constraintBottom_toTopOf="@+id/btnPagingListGrid" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPagingListGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_paging_list_api_grid" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPagingListDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_paging_list_db" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

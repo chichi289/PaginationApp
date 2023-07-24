@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PaginationApp</string>
+    <string name="api_key">627ce86791e5be7dd69345df</string>
+    <string name="txt_full_name">%1$s %2$s</string>
+    <string name="txt_retry">Retry</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_refresh">Refresh</string>
+    <string name="txt_remove">Remove</string>
+    <string name="txt_clear_db">Clear db</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_list_api_end_less_scroll">List + API + Endless scroll</string>
+    <string name="txt_paging_list_api_linear">Paging List + API + Linear</string>
+    <string name="txt_paging_list_db">Paging List + Room Db</string>
+    <string name="txt_paging_list_api_grid">Paging List + API + Grid</string>
+    <string name="txt_no_data_found">No data found.</string>
+</resources>
